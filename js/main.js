@@ -1,0 +1,1 @@
+var nav = responsiveNav(".main-nav_toggle_js");
