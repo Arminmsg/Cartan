@@ -17,3 +17,5 @@ function cartan_jetpack_setup() {
 	) );
 }
 add_action( 'after_setup_theme', 'cartan_jetpack_setup' );
+
+?>

@@ -189,6 +189,7 @@ figure {
  */
 hr {
   -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
 }
@@ -305,6 +306,8 @@ input {
  */
 input[type="checkbox"],
 input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -1988,6 +1991,7 @@ nav li {
 }
 .masthead {
   background-image: url(img/bg.png);
+  -webkit-background-size: 100% auto;
   background-size: 100% auto;
 }
 
@@ -2000,3 +2004,14 @@ nav li {
 }
 
 /* Modules */
+.rounded-box {
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: white;
+  margin: 40px 0;
+}
+
+/* min-width 641px, medium screens */
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+/* min-width 1025px, large screens */
+/* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */

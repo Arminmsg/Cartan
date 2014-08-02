@@ -8,9 +8,10 @@ home.php
 
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
-				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+				<article id="post-<?php the_ID(); ?>" <?php post_class('rounded-box'); ?>>
 	
 					<header class="entry-header">
+						<img src="<?php cartan_featured_image_url(); ?>" alt="">
 	
 						<h1 class="entry-title">
 							<a class="post-link" href="<?php the_permalink(); ?>"> <?php the_title(); ?></a>
