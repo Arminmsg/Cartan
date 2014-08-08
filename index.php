@@ -15,7 +15,7 @@ get_header(); ?>
 
 <div class="row">
   <div class="main-content large-8 columns">
-
+  	<div class="rounded-box">
 		<?php if ( have_posts() ) : ?>
 
 			<?php /* Start the Loop */ ?>
@@ -30,12 +30,15 @@ get_header(); ?>
 				?>
 
 			<?php endwhile; ?>
+		</div>
 
 			<?php cartan_paging_nav(); ?>
 
 		<?php else : ?>
 
-			<?php get_template_part( 'content', 'none' ); ?>
+			<div class="rounded-box">
+				<?php get_template_part( 'content', 'none' ); ?>
+			</div>
 
 		<?php endif; ?>
 

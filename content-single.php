@@ -4,6 +4,7 @@
  */
 ?>
 
+
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 <?php cartan_featured_image_url(); ?>
 

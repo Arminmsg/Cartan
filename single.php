@@ -9,6 +9,7 @@ get_header(); ?>
 
 	<div class="row">
   	<div class="main-content large-8 columns">
+  		<div class="rounded-box">
 
 		<?php while ( have_posts() ) : the_post(); ?>
 
@@ -24,7 +25,7 @@ get_header(); ?>
 		<?php endwhile; // end of the loop. ?>
 
 
-
+		</div>
 	</div>
 	
 	<aside class="large-4 columns">

@@ -1927,14 +1927,14 @@ small, .micro {
   display: inline-block;
 }
 
-nav {
+.main-nav {
   font-family: "Quicksand", sans-serif;
   background-color: black;
 }
-nav ul {
+.main-nav ul {
   padding: 0;
 }
-nav li {
+.main-nav li {
   list-style: none;
 }
 
@@ -2009,6 +2009,10 @@ nav li {
   overflow: hidden;
   background-color: white;
   margin: 40px 0;
+}
+
+.post-byline div {
+  display: inline-block;
 }
 
 /* min-width 641px, medium screens */
