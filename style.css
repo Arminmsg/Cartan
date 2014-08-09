@@ -2015,6 +2015,10 @@ small, .micro {
   display: inline-block;
 }
 
+.entry-header, .entry-content, .entry-footer {
+  padding: 20px;
+}
+
 /* min-width 641px, medium screens */
 /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 /* min-width 1025px, large screens */

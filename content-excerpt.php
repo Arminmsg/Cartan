@@ -1,7 +1,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-
+  <?php cartan_featured_image(); ?>
   <header class="entry-header">
-    <img src="<?php cartan_featured_image_url(); ?>" alt="">
+    
 
     <h1 class="entry-title">
       <a class="post-link" href="<?php the_permalink(); ?>"> <?php the_title(); ?></a>

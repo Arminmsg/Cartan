@@ -140,11 +140,13 @@ if ( ! function_exists( 'cartan_featured_image_url' ) ) :
 /**
  * Gets the Url of the featured image.
  */
-function cartan_featured_image_url() {
+function cartan_featured_image() {
   if ( has_post_thumbnail() ) {
     $thumb_id = get_post_thumbnail_id();
     $thumb_url = wp_get_attachment_image_src($thumb_id,'thumbnail-size', true);
-    echo $thumb_url[0];
+    echo '<img src="' . $thumb_url[0] . '" alt="">';
+  }
+  else {
   }
 }
 endif;

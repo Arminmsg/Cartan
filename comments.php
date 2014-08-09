@@ -75,6 +75,6 @@ if ( post_password_required() ) {
 	        'comment_field' => '<p class="comment-form-comment"><label for="comment">' . _x( 'Comment', 'noun' ) . '</label><br /><textarea id="comment" name="comment" aria-required="true"></textarea></p>',
 	);
 	
-	comment_form(); ?>
+	comment_form( $comments_args ); ?>
 
 </div><!-- #comments -->
