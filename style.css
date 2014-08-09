@@ -2125,6 +2125,16 @@ small, .micro {
   margin-right: 3px;
 }
 
+.nav-links div {
+  display: inline-block;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: white;
+  padding: 10px 20px;
+}
+
 /* min-width 641px, medium screens */
 /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 /* min-width 1025px, large screens */

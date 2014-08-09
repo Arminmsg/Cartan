@@ -3,7 +3,6 @@
  * @package Cartan
  */
 ?>
-CuntTen.php
 
 <h2><?php get_post_type() ?></h2>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>

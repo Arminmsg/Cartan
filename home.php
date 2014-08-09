@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-home.php 
 
 <div class="row">
   <div class="main-content large-8 columns">
