@@ -15,5 +15,25 @@
   padding: 20px;
 }
 
-
+.posted-on:before {
+  content: '\e802';
+  font-size: 1rem;
+  font-family: "fontello";
+  margin-left: 3px;
+  margin-right: 5px;
+}
+.byline:before {
+  content: '\e801';
+  font-size: 1rem;
+  font-family: "fontello";
+  margin-left: 8px;
+  margin-right: 3px;
+}
+.category:before {
+  content: '\e803';
+  font-size: 1rem;
+  font-family: "fontello";
+  margin-left: 8px;
+  margin-right: 3px;
+}
 

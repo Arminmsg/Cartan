@@ -1892,8 +1892,8 @@ small, .micro {
 }
 @font-face {
   font-family: 'fontello';
-  src: url("../font/fontello.eot?30317980");
-  src: url("../font/fontello.eot?30317980#iefix") format("embedded-opentype"), url("../font/fontello.woff?30317980") format("woff"), url("../font/fontello.ttf?30317980") format("truetype"), url("../font/fontello.svg?30317980#fontello") format("svg");
+  src: url("font/fontello.eot?30317980");
+  src: url("font/fontello.eot?30317980#iefix") format("embedded-opentype"), url("font/fontello.woff?30317980") format("woff"), url("font/fontello.ttf?30317980") format("truetype"), url("font/fontello.svg?30317980#fontello") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -1947,6 +1947,30 @@ small, .micro {
 }
 
 /* '' */
+.posted-on:before {
+  content: '\e802';
+  font-size: 1rem;
+  font-family: "fontello";
+  margin-left: 3px;
+  margin-right: 5px;
+}
+
+.byline:before {
+  content: '\e801';
+  font-size: 1rem;
+  font-family: "fontello";
+  margin-left: 8px;
+  margin-right: 3px;
+}
+
+.category:before {
+  content: '\e803';
+  font-size: 1rem;
+  font-family: "fontello";
+  margin-left: 8px;
+  margin-right: 3px;
+}
+
 /* Layout */
 @media screen and (max-width: 64em) {
   .js .nav-collapse {
@@ -2075,6 +2099,30 @@ small, .micro {
 
 .entry-header, .entry-content, .entry-footer {
   padding: 20px;
+}
+
+.posted-on:before {
+  content: '\e802';
+  font-size: 1rem;
+  font-family: "fontello";
+  margin-left: 3px;
+  margin-right: 5px;
+}
+
+.byline:before {
+  content: '\e801';
+  font-size: 1rem;
+  font-family: "fontello";
+  margin-left: 8px;
+  margin-right: 3px;
+}
+
+.category:before {
+  content: '\e803';
+  font-size: 1rem;
+  font-family: "fontello";
+  margin-left: 8px;
+  margin-right: 3px;
 }
 
 /* min-width 641px, medium screens */
