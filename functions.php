@@ -80,7 +80,7 @@ function cartan_widgets_init() {
 		'name'          => __( 'Sidebar', 'cartan' ),
 		'id'            => 'sidebar-1',
 		'description'   => '',
-		'before_widget' => '<aside id="%1$s" class="widget %2$s ">',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s rounded-box">',
 		'after_widget'  => '</aside>',
 		'before_title'  => '<h1 class="widget-title gamma">',
 		'after_title'   => '</h1>',

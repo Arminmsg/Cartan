@@ -66,8 +66,8 @@ if ( ! function_exists( 'cartan_posted_on' ) ) :
  */
 function cartan_posted_on() {
 	$time_string = '<time class="entry-date published" datetime="%1$s">%2$s</time>';
-	if ( get_the_time( 'U' ) !== get_the_modified_time( 'U' ) ) {
-		$time_string .= '<time class="updated" datetime="%3$s">%4$s</time>';
+	if ( get_the_time( 'U' ) < get_the_modified_time( 'U' ) ) {
+		$time_string = '<time class="updated" datetime="%3$s">%4$s</time>';
 	}
 
 	$time_string = sprintf( $time_string,
@@ -146,7 +146,7 @@ function cartan_featured_image() {
   if ( has_post_thumbnail() ) {
     $thumb_id = get_post_thumbnail_id();
     $thumb_url = wp_get_attachment_image_src($thumb_id,'thumbnail-size', true);
-    echo '<img src="' . $thumb_url[0] . '" alt="">';
+    echo '<div class="postimage" style="background-image: url('. $thumb_url[0] .')"></div>';
   }
   else {
   }

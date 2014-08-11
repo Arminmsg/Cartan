@@ -1,12 +1,14 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-  <?php cartan_featured_image(); ?>
   <header class="entry-header">
-    <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-
-    <div class="entry-meta">
+    <h1 class="entry-title">
+      <a class="post-link" href="<?php the_permalink(); ?>"> <?php the_title(); ?></a>
+    </h1>
+    <div class="entry-meta micro">
       <?php cartan_posted_on(); ?>
     </div><!-- .entry-meta -->
   </header><!-- .entry-header -->
+
+  <?php cartan_featured_image(); ?>
 
   <div class="entry-content">
     <?php the_excerpt(); ?>

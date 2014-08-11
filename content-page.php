@@ -7,11 +7,12 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<?php cartan_featured_image(); ?>"
-	
 	<header class="entry-header">
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+	  <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+
 	</header><!-- .entry-header -->
+
+	<?php cartan_featured_image(); ?>
 
 	<div class="entry-content">
 		<?php the_content(); ?>
