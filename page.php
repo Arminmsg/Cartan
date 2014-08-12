@@ -12,11 +12,12 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+<div class="row">
+  <div class="main-content large-8 columns">
 
 			<?php while ( have_posts() ) : the_post(); ?>
 
+			<div class="rounded-box">
 				<?php get_template_part( 'content', 'page' ); ?>
 
 				<?php
@@ -26,10 +27,11 @@ get_header(); ?>
 					endif;
 				?>
 
+			</div> <!-- .rounded-box -->
 			<?php endwhile; // end of the loop. ?>
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
+		</div><!-- #main -->
 
 <?php get_sidebar(); ?>
+</div>
 <?php get_footer(); ?>

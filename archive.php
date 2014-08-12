@@ -39,9 +39,7 @@ get_header(); ?>
 
 	</div>
 	
-	<aside class="large-4 columns">
-		<?php get_sidebar(); ?>
-	</aside>
-</div>
 
+<?php get_sidebar(); ?>
+</div>
 <?php get_footer(); ?>

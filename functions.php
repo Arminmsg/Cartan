@@ -79,10 +79,11 @@ function cartan_widgets_init() {
 	register_sidebar( array(
 		'name'          => __( 'Sidebar', 'cartan' ),
 		'id'            => 'sidebar-1',
+		'class'					=> 'arminbester',
 		'description'   => '',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s rounded-box">',
 		'after_widget'  => '</aside>',
-		'before_title'  => '<h1 class="widget-title gamma">',
+		'before_title'  => '<h1 class="widget-title delta">',
 		'after_title'   => '</h1>',
 	) );
 }

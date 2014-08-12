@@ -76,3 +76,24 @@
   padding: 12px 24px;
   border: 1px solid $border-grey;
 }
+
+// Sidebar styling
+
+.widget {
+  padding: 24px;
+
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  li {
+    padding: 12px 0;
+  }
+}
+
+.widget-title {
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid $border-grey;
+}

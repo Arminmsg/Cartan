@@ -2162,6 +2162,23 @@ small, .micro {
   border: 1px solid rgba(0, 0, 0, 0.06);
 }
 
+.widget {
+  padding: 24px;
+}
+.widget ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.widget li {
+  padding: 12px 0;
+}
+
+.widget-title {
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
 /* min-width 641px, medium screens */
 /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 /* min-width 1025px, large screens */
