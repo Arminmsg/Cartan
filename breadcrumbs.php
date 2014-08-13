@@ -10,7 +10,7 @@
 <?php elseif ( is_home() ) : ?>
   Blog
 <?php elseif ( is_single() ) : ?>
-  Blog > <?php single_post_title() ?>
+  Blog
 <?php elseif ( is_category() ) : ?>
   Blog > <?php single_cat_title(); ?>
 <?php elseif ( is_tag() ) : ?>

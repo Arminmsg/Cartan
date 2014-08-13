@@ -10,7 +10,7 @@
 
   <?php cartan_featured_image(); ?>
 
-  <div class="entry-content">
+  <div class="entry-summary">
     <?php the_excerpt(); ?>
     <a class="continue" href="<?php the_permalink(); ?>">Read More</a>
   </div><!-- .entry-content -->

@@ -83,8 +83,8 @@ function cartan_widgets_init() {
 		'description'   => '',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s rounded-box">',
 		'after_widget'  => '</aside>',
-		'before_title'  => '<h1 class="widget-title delta">',
-		'after_title'   => '</h1>',
+		'before_title'  => '<h4 class="widget-title">',
+		'after_title'   => '</h4>',
 	) );
 }
 add_action( 'widgets_init', 'cartan_widgets_init' );

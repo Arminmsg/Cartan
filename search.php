@@ -18,15 +18,16 @@ get_header(); ?>
 
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
-
-				<?php
-				/**
-				 * Run the loop for the search to output the results.
-				 * If you want to overload this in a child theme then include a file
-				 * called content-search.php and that will be used instead.
-				 */
-				get_template_part( 'content', 'search' );
-				?>
+				<div class="rounded-box">
+					<?php
+					/**
+					 * Run the loop for the search to output the results.
+					 * If you want to overload this in a child theme then include a file
+					 * called content-search.php and that will be used instead.
+					 */
+					get_template_part( 'content', 'search' );
+					?>
+				</div>
 
 			<?php endwhile; ?>
 
@@ -34,15 +35,15 @@ get_header(); ?>
 
 		<?php else : ?>
 
-			<?php get_template_part( 'content', 'none' ); ?>
+			<div class="rounded-box">
+				<?php get_template_part( 'content', 'none' ); ?>
+			</div>
 
 		<?php endif; ?>
 
-		</main><!-- #main -->
-	</section><!-- #primary -->
+	</div><!-- #main -->
 
-	<aside class="large-4 columns">
-		<?php get_sidebar(); ?>
-	</aside>
+
+<?php get_sidebar(); ?>
 </div>
 <?php get_footer(); ?>
