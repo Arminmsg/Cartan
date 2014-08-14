@@ -5,7 +5,7 @@
  * The area of the page that contains both current comments
  * and the comment form.
  *
- * @package Cartan
+ * @package _s
  */
 
 /*
@@ -14,48 +14,49 @@
  * return early without loading the comments.
  */
 if ( post_password_required() ) {
-	return;
+  return;
 }
 ?>
 
 <div id="comments" class="comments-area">
 
-	<?php // You can start editing here -- including this comment! ?>
+  <?php // You can start editing here -- including this comment! ?>
 
-	<?php if ( have_comments() ) : ?>
-		<h2 class="comments-title gamma">
-			<?php
-				printf( _nx( 'One thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', get_comments_number(), 'comments title', 'cartan' ),
-					number_format_i18n( get_comments_number() ), '<span>' . get_the_title() . '</span>' );
-			?>
-		</h2>
+  <?php if ( have_comments() ) : ?>
+    <h2 class="comments-title">
+      <?php
+        printf( _nx( 'One thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', get_comments_number(), 'comments title', '_s' ),
+          number_format_i18n( get_comments_number() ), '<span>' . get_the_title() . '</span>' );
+      ?>
+    </h2>
 
-		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // are there comments to navigate through ?>
-		<nav id="comment-nav-above" class="comment-navigation" role="navigation">
-			<h1 class="screen-reader-text"><?php _e( 'Comment navigation', 'cartan' ); ?></h1>
-			<div class="nav-previous"><?php previous_comments_link( __( '&larr; Older Comments', 'cartan' ) ); ?></div>
-			<div class="nav-next"><?php next_comments_link( __( 'Newer Comments &rarr;', 'cartan' ) ); ?></div>
-		</nav><!-- #comment-nav-above -->
-		<?php endif; // check for comment navigation ?>
+    <?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // are there comments to navigate through ?>
+    <nav id="comment-nav-above" class="comment-navigation" role="navigation">
+      <h1 class="screen-reader-text"><?php _e( 'Comment navigation', '_s' ); ?></h1>
+      <div class="nav-previous"><?php previous_comments_link( __( '&larr; Older Comments', '_s' ) ); ?></div>
+      <div class="nav-next"><?php next_comments_link( __( 'Newer Comments &rarr;', '_s' ) ); ?></div>
+    </nav><!-- #comment-nav-above -->
+    <?php endif; // check for comment navigation ?>
 
-		<ol class="comment-list">
-			<?php
-				wp_list_comments( array(
-					'style'      => 'ol',
-					'short_ping' => true,
-				) );
-			?>
-		</ol><!-- .comment-list -->
+    <ol class="comment-list">
+      <?php
+        wp_list_comments( array(
+          'style'      => 'ol',
+          'short_ping' => true,
+          'avatar_size' => 48,
+        ) );
+      ?>
+    </ol><!-- .comment-list -->
 
-		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // are there comments to navigate through ?>
-		<nav id="comment-nav-below" class="comment-navigation" role="navigation">
-			<h1 class="screen-reader-text"><?php _e( 'Comment navigation', 'cartan' ); ?></h1>
-			<div class="nav-previous"><?php previous_comments_link( __( '&larr; Older Comments', 'cartan' ) ); ?></div>
-			<div class="nav-next"><?php next_comments_link( __( 'Newer Comments &rarr;', 'cartan' ) ); ?></div>
-		</nav><!-- #comment-nav-below -->
-		<?php endif; // check for comment navigation ?>
+    <?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // are there comments to navigate through ?>
+    <nav id="comment-nav-below" class="comment-navigation" role="navigation">
+      <h1 class="screen-reader-text"><?php _e( 'Comment navigation', '_s' ); ?></h1>
+      <div class="nav-previous"><?php previous_comments_link( __( '&larr; Older Comments', '_s' ) ); ?></div>
+      <div class="nav-next"><?php next_comments_link( __( 'Newer Comments &rarr;', '_s' ) ); ?></div>
+    </nav><!-- #comment-nav-below -->
+    <?php endif; // check for comment navigation ?>
 
-	<?php endif; // have_comments() ?>
+  <?php endif; // have_comments() ?>
 
 	<?php
 		// If comments are closed and there are comments, let's leave a little note, shall we?
@@ -92,12 +93,12 @@ $aria_req = ( $req ? " aria-required='true'" : '' ); ?>
   				    '<div class="columns"> <p class="comment-form-url"><label for="url" class="micro">' .
   				    __( 'Website', 'domainreference' ) . '</label>' .
   				    '<input id="url" name="url" type="text" value="' . esc_attr( $commenter['comment_author_url'] ) .
-  				    '" size="30" /></p> </div>'
+  				    '" size="30" /></p> </div> </div>'
   				  )
   				),
 
-					// closes .row redefine your own textarea (the comment body)
-	        'comment_field' => '<div class="columns"> <p class="comment-form-comment"><label for="comment" class="micro">' . _x( 'Comment', 'noun' ) . '</label><textarea id="comment" name="comment" aria-required="true"></textarea></p> </div> </div>',
+					// extra row since it's needed when you're logged in redefine your own textarea (the comment body)
+	        'comment_field' => '<div class="row"> <div class="columns"> <p class="comment-form-comment"><label for="comment" class="micro">' . _x( 'Comment', 'noun' ) . '</label><textarea id="comment" name="comment" aria-required="true"></textarea></p> </div> </div>',
 
 	);
 	

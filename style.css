@@ -2376,6 +2376,91 @@ small, .micro {
   display: none;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/modules\/_comments\.scss}line{font-family:\0000339}}
+.comments-title {
+  margin-bottom: 24px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/modules\/_comments\.scss}line{font-family:\0000342}}
+.comment-list {
+  list-style: none;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/modules\/_comments\.scss}line{font-family:\0000346}}
+.children {
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/modules\/_comments\.scss}line{font-family:\0000349}}
+.avatar {
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/modules\/_comments\.scss}line{font-family:\0000355}}
+.says {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/modules\/_comments\.scss}line{font-family:\0000357}}
+.comment-meta, .comment-author {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/modules\/_comments\.scss}line{font-family:\0000360}}
+.comment-meta .fn, .comment-author .fn {
+  font-size: 12px;
+  font-size: 0.75rem;
+  position: absolute;
+  top: 72px;
+  left: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/modules\/_comments\.scss}line{font-family:\0000369}}
+.comment-metadata {
+  position: absolute;
+  top: 12px;
+  left: 72px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/modules\/_comments\.scss}line{font-family:\0000375}}
+.reply, .comment-metadata {
+  font-size: 12px;
+  font-size: 0.75rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/modules\/_comments\.scss}line{font-family:\0000380}}
+.comment-content {
+  position: relative;
+  padding-left: 72px;
+  top: -10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/modules\/_comments\.scss}line{font-family:\0000386}}
+.reply {
+  display: block;
+  text-align: right;
+  margin: 36px 0 48px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/modules\/_comments\.scss}line{font-family:\0000394}}
+.comment, .comment-respond {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/modules\/_comments\.scss}line{font-family:\0000398}}
+.bypostauthor {
+  background-color: rgba(0, 0, 0, 0.03);
+  padding: 24px 24px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/modules\/_comments\.scss}line{font-family:\00003102}}
+.bypostauthor .reply {
+  border: 0;
+}
+
 @font-face {
   font-family: 'fontello';
   src: url("font/fontello.eot?26761672");
