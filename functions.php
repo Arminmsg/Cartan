@@ -95,6 +95,8 @@ add_action( 'widgets_init', 'cartan_widgets_init' );
 function cartan_scripts() {
 	wp_enqueue_style( 'cartan-style', get_stylesheet_uri() );
 
+	wp_enqueue_style( 'google-fonts', 'http://fonts.googleapis.com/css?family=Quicksand:400,700|Open+Sans' );
+
 	wp_enqueue_script( 'cartan-navigation', get_template_directory_uri() . '/js/vendor/responsive-nav.js', array(), '', false );
 
 	wp_enqueue_script( 'cartan-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', false );
