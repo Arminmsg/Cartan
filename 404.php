@@ -17,13 +17,15 @@ get_header(); ?>
 				</header><!-- .page-header -->
 
 
-					<p><?php _e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'cartan' ); ?></p>
+					<p class="not-found-error"><?php _e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'cartan' ); ?></p>
 
 					<?php get_search_form(); ?>
 				</div>
 
 				<div class="rounded-box">
-					<?php the_widget( 'WP_Widget_Recent_Posts' ); ?>
+					<?php 
+
+					the_widget( 'WP_Widget_Recent_Posts' ); ?>
 
 					<?php if ( cartan_categorized_blog() ) : // Only show the widget if site has multiple categories. ?>
 					<div class="widget widget_categories">

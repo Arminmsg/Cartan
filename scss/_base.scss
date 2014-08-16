@@ -59,6 +59,10 @@
   margin-top: 24px;
   border-top: 1px solid $border-grey;
   color: $byline-grey;
+  transition: color 0.3s ease-out;
+  &:hover {
+    color: rgba(0, 0, 0, 0.8);
+  }
   
 }
 
@@ -66,6 +70,10 @@
 
 .not-found {
     padding: 24px;
+}
+
+.not-found-error {
+  padding: 24px 0;
 }
 
 
@@ -97,8 +105,22 @@
   }
 }
 
-.widget-title {
+.widget-title, .widgettitle {
   margin-bottom: 12px;
   padding-bottom: 12px;
   border-bottom: 1px solid $border-grey;
 }
+
+select {
+  border-radius: 4px;
+  border: 1px solid $border-grey;
+  padding: 12px 60px 12px 12px;
+}
+
+select[name="archive-dropdown"]{
+  margin: 12px 0;
+}
+//.tagcloud {
+//  a { font-size: 12px;}
+//  display: inline-block;
+//}

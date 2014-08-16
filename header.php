@@ -26,11 +26,11 @@
 			<div class="row">
 				<div class="columns">
 
-						<h1 class="main-nav__title main-nav_height epsilon"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+						<h1 class="main-nav__title main-nav_height left epsilon"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 						<?php wp_nav_menu( array( 
 						'theme_location' => 'primary',
 						'fallback_cb' => 'false',
-						'container_class' => 'main-nav_toggle_js main-nav__list',
+						'container_class' => 'main-nav_toggle_js nav-clearing',
 						'menu_class' => 'main-nav__list',
 						) ); ?>
 

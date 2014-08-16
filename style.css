@@ -508,7 +508,7 @@ body {
   font-family: "Open Sans", serif;
   font-weight: normal;
   font-style: normal;
-  line-height: 1;
+  line-height: 1.5;
   position: relative;
   cursor: default;
 }
@@ -2056,10 +2056,17 @@ h1, h2, h3, h4, h5, h6 {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\0000324}}
 a {
   text-decoration: none;
+  color: #5182A8;
+  -webkit-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\0000329}}
+a:hover {
+  color: #304d63;
 }
 
 /* These handle massive type, for less frequently occuring bits of text (e.g. in mastheads and banners). */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\0000337}}
 .giga {
   font-size: 80px;
   font-size: 5rem;
@@ -2068,7 +2075,7 @@ a {
   /* 96px */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\0000342}}
 .mega {
   font-size: 64px;
   font-size: 4rem;
@@ -2077,7 +2084,7 @@ a {
   /* 72px */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\0000347}}
 .kilo {
   font-size: 36px;
   font-size: 2.375rem;
@@ -2087,42 +2094,42 @@ a {
 }
 
 /* Define headings and their associated classes here. */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\0000354}}
 h1, .alpha {
   font-size: 32px;
   font-size: 2rem;
   line-height: 1.25;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\0000359}}
 h2, .beta {
   font-size: 26px;
   font-size: 1.625em;
   line-height: 1.15384615;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\0000364}}
 h3, .gamma {
   font-size: 22px;
   font-size: 1.375rem;
   line-height: 1.13636364;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\0000369}}
 h4, .delta {
   font-size: 18px;
   font-size: 1.125rem;
   line-height: 1.11111111;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\0000374}}
 h5, .epsilon {
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.11111111;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\0000379}}
 h6, .zeta {
   font-size: 14px;
   font-size: 0.875rem;
@@ -2130,7 +2137,7 @@ h6, .zeta {
 }
 
 /* Smaller-than-body-copy sizes here. */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\0000386}}
 small, .micro {
   font-size: 12px;
   font-size: 0.75rem;
@@ -2138,7 +2145,7 @@ small, .micro {
 }
 
 @media only screen and (min-width: 40.063em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\0000398}}
   .kilo {
     font-size: 48px;
     font-size: 3rem;
@@ -2147,33 +2154,33 @@ small, .micro {
     /* 48px */
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\00003104}}
   h1, .alpha {
     font-size: 40px;
     font-size: 2.5rem;
     line-height: 1.125;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\00003109}}
   h2, .beta {
     font-size: 32px;
     font-size: 2rem;
     line-height: 1.25;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\00003114}}
   h3, .gamma {
     font-size: 24px;
     font-size: 1.5rem;
     line-height: 1.25;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\00003119}}
   h4, .delta {
     line-height: 1.22222222;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\00003127}}
   blockquote {
     font-size: 24px;
     font-size: 1.5rem;
@@ -2181,26 +2188,26 @@ small, .micro {
   }
 }
 @media only screen and (min-width: 64.063em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\00003137}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\00003143}}
   h1, .alpha {
     font-size: 48px;
     font-size: 3rem;
     line-height: 1.05;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\00003142}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\00003148}}
   h2, .beta {
     font-size: 36px;
     font-size: 2.25rem;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\00003146}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\00003152}}
   h3, .gamma {
     font-size: 28px;
     font-size: 1.75rem;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\00003150}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/base\/_base\.scss}line{font-family:\00003156}}
   h4, .delta {
     line-height: 1.22222222;
   }
@@ -2250,62 +2257,72 @@ small, .micro {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/layout\/_nav\.scss}line{font-family:\0000337}}
+.nav-clearing {
+  clear: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/layout\/_nav\.scss}line{font-family:\0000341}}
 .main-nav {
   font-family: "Quicksand", sans-serif;
   background-color: black;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/layout\/_nav\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/layout\/_nav\.scss}line{font-family:\0000344}}
 .main-nav ul {
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/layout\/_nav\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/layout\/_nav\.scss}line{font-family:\0000345}}
 .main-nav li {
   list-style: none;
 }
 
 @media screen and (min-width: 64em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/layout\/_nav\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/layout\/_nav\.scss}line{font-family:\0000350}}
+  .nav-clearing {
+    clear: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/layout\/_nav\.scss}line{font-family:\0000351}}
   .js .main-nav_toggle_js {
     position: relative;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/layout\/_nav\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/layout\/_nav\.scss}line{font-family:\0000354}}
   .js .main-nav__list.closed {
     max-height: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/layout\/_nav\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/layout\/_nav\.scss}line{font-family:\0000357}}
   .nav-toggle {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/layout\/_nav\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/layout\/_nav\.scss}line{font-family:\0000361}}
   .main-nav__list {
     float: right;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/layout\/_nav\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/layout\/_nav\.scss}line{font-family:\0000364}}
   .main-nav__list > li {
     display: inline-block;
     position: relative;
     line-height: 60px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/layout\/_nav\.scss}line{font-family:\0000365}}
-  .sub-menu {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/layout\/_nav\.scss}line{font-family:\0000371}}
+  .main-nav .sub-menu {
     display: none;
     position: absolute;
     z-index: 9;
     line-height: 30px;
     text-align: center;
-    padding: 10px 0;
+    padding: 12px 0;
     border-radius: 4px;
     white-space: nowrap;
-    padding: 5px 20px;
+    padding: 6px 24px;
     background: #f9fafa;
     top: 55px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/layout\/_nav\.scss}line{font-family:\0000377}}
-  .sub-menu:before {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/layout\/_nav\.scss}line{font-family:\0000383}}
+  .main-nav .sub-menu:before {
     content: "";
     display: block;
     position: absolute;
@@ -2318,24 +2335,24 @@ small, .micro {
     border-bottom: 5px solid #f9fafa;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/layout\/_nav\.scss}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/layout\/_nav\.scss}line{font-family:\0000396}}
   .menu-item-has-children:hover > .sub-menu {
     display: block;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/layout\/_nav\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/layout\/_nav\.scss}line{font-family:\00003102}}
 .masthead {
   background-image: url(img/bg.png);
-  -webkit-background-size: 100% auto;
-  background-size: 100% auto;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/layout\/_nav\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/layout\/_nav\.scss}line{font-family:\00003106}}
 .masthead__tagline {
   position: absolute;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/layout\/_nav\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/layout\/_nav\.scss}line{font-family:\00003109}}
 .masthead__location {
   line-height: 200px;
 }
@@ -2421,7 +2438,7 @@ small, .micro {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/modules\/_comments\.scss}line{font-family:\0000369}}
 .comment-metadata {
   position: absolute;
-  top: 12px;
+  top: 0;
   left: 72px;
 }
 
@@ -2435,7 +2452,7 @@ small, .micro {
 .comment-content {
   position: relative;
   padding-left: 72px;
-  top: -10px;
+  top: -20px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/modules\/_comments\.scss}line{font-family:\0000386}}
@@ -2456,8 +2473,9 @@ small, .micro {
 .bypostauthor {
   background-color: rgba(0, 0, 0, 0.03);
   padding: 24px 24px 0;
+  border-radius: 4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/modules\/_comments\.scss}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/modules\/_comments\.scss}line{font-family:\00003103}}
 .bypostauthor .reply {
   border: 0;
 }
@@ -2668,19 +2686,30 @@ small, .micro {
   margin-top: 24px;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   color: rgba(0, 0, 0, 0.4);
+  -webkit-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/_base\.scss}line{font-family:\0000363}}
+.continue:hover {
+  color: rgba(0, 0, 0, 0.8);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/_base\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/_base\.scss}line{font-family:\0000371}}
 .not-found {
   padding: 24px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/_base\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/_base\.scss}line{font-family:\0000375}}
+.not-found-error {
+  padding: 24px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/_base\.scss}line{font-family:\0000382}}
 .nav-links div {
   display: inline-block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/_base\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/_base\.scss}line{font-family:\0000386}}
 .button {
   border-radius: 4px;
   background-color: white;
@@ -2688,25 +2717,37 @@ small, .micro {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/_base\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/_base\.scss}line{font-family:\0000395}}
 .widget {
   padding: 24px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/_base\.scss}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/_base\.scss}line{font-family:\0000398}}
 .widget ul {
   list-style-type: none;
   padding-left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/_base\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/_base\.scss}line{font-family:\00003103}}
 .widget li {
   padding: 12px 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/_base\.scss}line{font-family:\00003100}}
-.widget-title {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/_base\.scss}line{font-family:\00003108}}
+.widget-title, .widgettitle {
   margin-bottom: 12px;
   padding-bottom: 12px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/_base\.scss}line{font-family:\00003114}}
+select {
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 12px 60px 12px 12px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Armin\/Desktop\/InstantWP_4\.3\.1\/iwpserver\/htdocs\/wordpress\/wp-content\/themes\/cartan\/scss\/_base\.scss}line{font-family:\00003120}}
+select[name="archive-dropdown"] {
+  margin: 12px 0;
 }
 
 /* min-width 641px, medium screens */

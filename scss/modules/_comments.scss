@@ -68,7 +68,7 @@
 
 .comment-metadata {
   position: absolute;
-  top: 12px;
+  top: 0;
   left: 72px;
 }
 
@@ -80,7 +80,7 @@
 .comment-content {
   position: relative;
   padding-left: 72px;
-  top:-10px;
+  top: -20px;
 }
 
 .reply {
@@ -98,6 +98,7 @@
 .bypostauthor {
   background-color: rgba(0, 0, 0, 0.03);
   padding: 24px 24px 0;
+  border-radius: 4px;
 
   .reply {
     border: 0;

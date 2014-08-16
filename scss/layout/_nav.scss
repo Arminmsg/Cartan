@@ -34,6 +34,10 @@
   display: inline-block;
 }
 
+.nav-clearing {
+  clear: left;
+}
+
 .main-nav {
   font-family: $sans;
   background-color: $nav-bg;
@@ -43,6 +47,7 @@
 
 
 @media screen and (min-width: 64em) {
+  .nav-clearing {clear: none;}
   .js .main-nav_toggle_js {
     position: relative;
   }
@@ -54,6 +59,7 @@
   }
 
   .main-nav__list {
+    //clear: none;
     float: right;
     > li {
       display: inline-block;
@@ -62,16 +68,16 @@
     }
   }
 
-  .sub-menu {
+  .main-nav .sub-menu {
     display: none;
     position: absolute;
     z-index: 9;
     line-height: 30px;
     text-align: center;
-    padding: 10px 0;
+    padding: 12px 0;
     border-radius: 4px;
     white-space: nowrap;
-    padding: 5px 20px;
+    padding: 6px 24px;
     background: #f9fafa;
     top: 55px;
     &:before {
@@ -95,7 +101,7 @@
 
 .masthead {
   background-image: url(img/bg.png);
-  background-size: 100% auto;
+  background-size: cover;
 }
 .masthead__tagline {
   position: absolute;
